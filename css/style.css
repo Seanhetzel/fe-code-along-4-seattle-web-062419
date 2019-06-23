@@ -112,6 +112,12 @@ figcaption {
   line-height: 0;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*////////// MEDIA //////////*/
  
 img, video, audio {
@@ -123,12 +129,4 @@ img, video, audio {
 section {
   padding: 20px;
   margin-bottom: 20px;
-}
-
-/*////////// LAYOUT //////////*/
- 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
